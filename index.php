@@ -3,6 +3,6 @@
   <title>Prueba de PHP</title>
  </head>
  <body>
- <?php echo '<p>Prueba php Heroku</p>'; ?>
+ <?php echo '<p>Hola ' . $_GET["nombre"] . '</p>'; ?>
  </body>
 </html>
